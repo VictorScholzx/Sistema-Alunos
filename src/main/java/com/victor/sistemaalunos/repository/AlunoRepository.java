@@ -13,9 +13,9 @@ public class AlunoRepository {
     private Long nextId = 1L;
 
     public AlunoRepository() {
-        save(new Aluno("Victor Augusto Scholz", "victor.scholz05@icloud.com", "Java", 20));
-        save(new Aluno("Sabrina Maria Moreira Kunzler", "sabrinakunzler14@gmail.com", "Python", 20));
-        save(new Aluno("Matias Del Solar Vicuna", "mativicuna@gmail.com", "JavaScript", 24));
+        save(new Aluno("Victor Augusto Scholz", "victor.scholz05@icloud.com", "Engenharia de Software", 20));
+        save(new Aluno("Sabrina Maria Moreira Kunzler", "sabrinakunzler14@gmail.com", "Medicina Veterinária", 20));
+        save(new Aluno("Matias Del Solar Vicuna", "mativicuna@gmail.com", "Economia", 24));
     }
 
     public Aluno save(Aluno aluno) {
